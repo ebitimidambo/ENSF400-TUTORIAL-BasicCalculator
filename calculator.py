@@ -22,3 +22,9 @@ def cos(x):
 
 def tan(x):
     return math.tan(x)
+
+def log(value, base):
+    return math.log(value, base)
+
+def log10(value):
+    return math.log(value)
