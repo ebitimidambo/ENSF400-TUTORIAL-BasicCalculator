@@ -10,6 +10,8 @@ def mul(a, b):
     return a * b
 
 def div(a, b):
+    if b == 0:
+        raise float('inf')
     return a / b
 
 def sin(x):
